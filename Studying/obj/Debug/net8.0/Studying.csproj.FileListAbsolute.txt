@@ -1,0 +1,14 @@
+D:\C#\Studying\Studying\bin\Debug\net8.0\Studying.exe
+D:\C#\Studying\Studying\bin\Debug\net8.0\Studying.deps.json
+D:\C#\Studying\Studying\bin\Debug\net8.0\Studying.runtimeconfig.json
+D:\C#\Studying\Studying\bin\Debug\net8.0\Studying.dll
+D:\C#\Studying\Studying\bin\Debug\net8.0\Studying.pdb
+D:\C#\Studying\Studying\obj\Debug\net8.0\Studying.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Studying\Studying\obj\Debug\net8.0\Studying.AssemblyInfoInputs.cache
+D:\C#\Studying\Studying\obj\Debug\net8.0\Studying.AssemblyInfo.cs
+D:\C#\Studying\Studying\obj\Debug\net8.0\Studying.csproj.CoreCompileInputs.cache
+D:\C#\Studying\Studying\obj\Debug\net8.0\Studying.dll
+D:\C#\Studying\Studying\obj\Debug\net8.0\refint\Studying.dll
+D:\C#\Studying\Studying\obj\Debug\net8.0\Studying.pdb
+D:\C#\Studying\Studying\obj\Debug\net8.0\Studying.genruntimeconfig.cache
+D:\C#\Studying\Studying\obj\Debug\net8.0\ref\Studying.dll
