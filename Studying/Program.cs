@@ -1,25 +1,37 @@
 ﻿Person[] people =
 {
-    new() { Name = "Yauhenui" },
-    new() { Name = "Ilya" },
-    new() { Name = "Egor" },
-    new() { Name = "Dima" },
-    new() { Name = "Matvey"}
+    new() { Name = "Alexander" },
+    new() { Name = "Noah" },
+    new() { Name = "Michael" },
+    new() { Name = "Edward" },
+    new() { Name = "Steve"}
 };
 
-Array.Sort(people);
+Array.Sort(people, new PersonComparer());
 
 foreach (Person p in people)
     Console.WriteLine(p.Name);
 
-class Person : IComparable<Person>
+public class Person
 {
     public string? Name { get; set; }
+}
 
-    public int CompareTo(Person? other)
+public class PersonComparer : IComparer<Person>
+{
+    public int Compare(Person? x, Person? y)
     {
-        if (Name is null)
+        if (x is null || y is null)
             return 0;
-        return Name.CompareTo(other?.Name);
+
+        int result = x.Name.Length.CompareTo(y.Name.Length);
+
+        if (result == 0)
+            return x.Name.CompareTo(y.Name);
+
+        else
+        {
+            return result;
+        }
     }
 }
