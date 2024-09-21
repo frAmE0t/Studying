@@ -1,29 +1,30 @@
-﻿Person p = new();
-p.Lose();
-((IKeyHolder)p).Lose();
+﻿DVDPlayer dvd = new();
+IPlayable playable = new DVDPlayer();
 
-IKeyHolder p2 = p as IKeyHolder;
-p2.Lose();
+dvd.Pause();
+dvd.Play();
+playable.Stop();
 
-public interface IGamePlayer
+interface IPlayable
 {
-    void Lose();
-}
+    void Play();
+    void Pause();
 
-public interface IKeyHolder
-{
-    void Lose();
-}
-
-public class Person : IGamePlayer, IKeyHolder
-{
-    public void Lose() // explicit realisation
+    void Stop()
     {
-        //Realisation
+        Console.WriteLine("Default implementation of Stop");
+    }
+}
+
+class DVDPlayer : IPlayable
+{
+    public void Pause()
+    {
+        Console.WriteLine("DVD player is pausing");
     }
 
-    void IKeyHolder.Lose() //implicit realisation
+    public void Play()
     {
-        //Realisatin
+        Console.WriteLine("DVD player is playing");
     }
 }
