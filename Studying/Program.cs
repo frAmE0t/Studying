@@ -1,10 +1,25 @@
-﻿string str = foo(1) switch
+﻿Person[] people =
 {
-    0 => "zero",
-    3 => "three",
-    _ => "default case"
+    new() { Name = "Yauhenui" },
+    new() { Name = "Ilya" },
+    new() { Name = "Egor" },
+    new() { Name = "Dima" },
+    new() { Name = "Matvey"}
 };
 
-Console.WriteLine(str);
+Array.Sort(people);
 
-static int foo(int x) => x * 3;
+foreach (Person p in people)
+    Console.WriteLine(p.Name);
+
+class Person : IComparable<Person>
+{
+    public string? Name { get; set; }
+
+    public int CompareTo(Person? other)
+    {
+        if (Name is null)
+            return 0;
+        return Name.CompareTo(other?.Name);
+    }
+}
