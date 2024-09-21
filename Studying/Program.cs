@@ -1,9 +1,17 @@
 ﻿DVDPlayer dvd = new();
 IPlayable playable = new DVDPlayer();
 
+Console.WriteLine("Class instance:");
 dvd.Pause();
 dvd.Play();
+//dvd.Stop(); ERROR
+
+Console.WriteLine();
+
+Console.WriteLine("Interface instance:");
 playable.Stop();
+playable.Pause();
+playable.Play();
 
 interface IPlayable
 {
