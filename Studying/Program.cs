@@ -1,4 +1,9 @@
-﻿Console.WriteLine("Explicit and implicit interface realisation");
+﻿Person p = new();
+p.Lose();
+((IKeyHolder)p).Lose();
+
+IKeyHolder p2 = p as IKeyHolder;
+p2.Lose();
 
 public interface IGamePlayer
 {
