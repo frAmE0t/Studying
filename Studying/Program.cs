@@ -1,37 +1,24 @@
-﻿Person[] people =
+﻿Console.WriteLine("Explicit and implicit interface realisation");
+
+public interface IGamePlayer
 {
-    new() { Name = "Alexander" },
-    new() { Name = "Noah" },
-    new() { Name = "Michael" },
-    new() { Name = "Edward" },
-    new() { Name = "Steve"}
-};
-
-Array.Sort(people, new PersonComparer());
-
-foreach (Person p in people)
-    Console.WriteLine(p.Name);
-
-public class Person
-{
-    public string? Name { get; set; }
+    void Lose();
 }
 
-public class PersonComparer : IComparer<Person>
+public interface IKeyHolder
 {
-    public int Compare(Person? x, Person? y)
+    void Lose();
+}
+
+public class Person : IGamePlayer, IKeyHolder
+{
+    public void Lose() // explicit realisation
     {
-        if (x is null || y is null)
-            return 0;
+        //Realisation
+    }
 
-        int result = x.Name.Length.CompareTo(y.Name.Length);
-
-        if (result == 0)
-            return x.Name.CompareTo(y.Name);
-
-        else
-        {
-            return result;
-        }
+    void IKeyHolder.Lose() //implicit realisation
+    {
+        //Realisatin
     }
 }
