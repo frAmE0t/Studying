@@ -1,38 +1,49 @@
-﻿DVDPlayer dvd = new();
-IPlayable playable = new DVDPlayer();
+﻿Rectangle r = new(height: 3, width: 4.5);
+Console.WriteLine($"Rectangle H : {r.Height}, W : {r.Width}, Area : {r.Area}");
 
-Console.WriteLine("Class instance:");
-dvd.Pause();
-dvd.Play();
-//dvd.Stop(); ERROR
+Square s = new(5);
+Console.WriteLine($"Square H : {s.Height}, W : {s.Width}, Area : {s.Area}");
 
-Console.WriteLine();
+Circle c = new(2.5);
+Console.WriteLine($"Circle H : {c.Height}, W : {c.Width}, Area : {c.Area}");
 
-Console.WriteLine("Interface instance:");
-playable.Stop();
-playable.Pause();
-playable.Play();
-
-interface IPlayable
+class Shape
 {
-    void Play();
-    void Pause();
+    public double Height { get; set; }
+    public double Width { get; set; }
+    public double Area {  get; set; }
+}
 
-    void Stop()
+class Rectangle : Shape
+{
+    public Rectangle(double height, double width)
     {
-        Console.WriteLine("Default implementation of Stop");
+        Height = height;
+        Width = width;
+        Area = height * width;
     }
 }
 
-class DVDPlayer : IPlayable
+class Square : Shape
 {
-    public void Pause()
+    public Square(double height)
     {
-        Console.WriteLine("DVD player is pausing");
+        Height = height;
+        Width = height;
+        Area = height * Width;
     }
+}
 
-    public void Play()
+class Circle : Shape
+{
+    public double Radius {  get; set; }
+    const double PI = 3.14f;
+
+    public Circle(double radius)
     {
-        Console.WriteLine("DVD player is playing");
+        Height = radius * 2;
+        Width = radius * 2;
+        Radius = radius;
+        Area = PI * Radius * Radius;
     }
 }
