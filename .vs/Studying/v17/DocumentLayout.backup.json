@@ -5,10 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{25009D6B-2D16-4218-BA9C-540E74A54D25}|Studying\\Studying.csproj|d:\\c#\\studying\\studying\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25009D6B-2D16-4218-BA9C-540E74A54D25}|Studying\\Studying.csproj|solutionrelative:studying\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25009D6B-2D16-4218-BA9C-540E74A54D25}|Studying\\Studying.csproj|d:\\c#\\studying\\studying\\studying.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{25009D6B-2D16-4218-BA9C-540E74A54D25}|Studying\\Studying.csproj|solutionrelative:studying\\studying.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,26 +22,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Studying.csproj",
-              "DocumentMoniker": "D:\\C#\\Studying\\Studying\\Studying.csproj",
-              "RelativeDocumentMoniker": "Studying\\Studying.csproj",
-              "ToolTip": "D:\\C#\\Studying\\Studying\\Studying.csproj",
-              "RelativeToolTip": "Studying\\Studying.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-20T10:39:12.045Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\C#\\Studying\\Studying\\Program.cs",
               "RelativeDocumentMoniker": "Studying\\Program.cs",
-              "ToolTip": "D:\\C#\\Studying\\Studying\\Program.cs*",
-              "RelativeToolTip": "Studying\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA5AAAAAAAAAA==",
+              "ToolTip": "D:\\C#\\Studying\\Studying\\Program.cs",
+              "RelativeToolTip": "Studying\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-20T10:38:44.493Z",
               "EditorCaption": ""

@@ -1,20 +1,33 @@
-﻿using SixLabors.ImageSharp;
-using SixLabors.ImageSharp.Processing;
+﻿string dir = Path.Combine(Environment.CurrentDirectory, "Code", "Chapter09", "OutputFiles");
 
-string imagesFolder = Path.Combine(Environment.CurrentDirectory, "images");
+Directory.CreateDirectory(dir);
 
-IEnumerable<string> images = Directory.EnumerateFiles(imagesFolder);
+string textFile = Path.Combine(dir, "Dummy.txt");
+string backupFile = Path.Combine(dir, "Dummy.bak");
 
-foreach (string imagePath in images)
+Console.WriteLine($"Working with {textFile}");
+Console.WriteLine($"Does it exist? {File.Exists(textFile)}");
+
+using (StreamWriter textWriter = new(textFile))
 {
-    string thumbnailPath = Path.Combine(Environment.CurrentDirectory, "images", Path.GetFileNameWithoutExtension(imagePath) + "-thumbnail" + Path.GetExtension(imagePath));
-
-    using (Image image = Image.Load(imagePath))
-    {
-        image.Mutate(x => x.Resize(image.Width / 10, image.Height / 10));
-        image.Mutate(x => x.Grayscale());
-        image.Save(thumbnailPath);
-    }
+    textWriter.WriteLine("Hello, C#!");
 }
 
-Console.WriteLine("Image processing complete. View the images folder.");
+Console.WriteLine($"Does {textFile} exist? {File.Exists(textFile)}");
+
+File.Copy(textFile, backupFile, true);
+
+Console.WriteLine($"Does {backupFile} exist? {File.Exists(backupFile)}");
+
+Console.Write("Confirm the file exist, and then press ENTER: ");
+Console.ReadLine();
+
+File.Delete(textFile);
+
+Console.WriteLine($"Does {textFile} exist? {File.Exists(textFile)}");
+
+using (StreamReader textReader = new(backupFile))
+{
+    Console.WriteLine($"Reading content of {backupFile}");
+    Console.WriteLine(textReader.ReadToEnd());
+}

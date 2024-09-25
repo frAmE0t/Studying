@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "geqwMrqsN0I=",
+  "dgSpecHash": "9OYyb53fh0k=",
   "success": true,
   "projectFilePath": "D:\\C#\\Studying\\Studying\\Studying.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Admin\\.nuget\\packages\\sixlabors.imagesharp\\3.1.5\\sixlabors.imagesharp.3.1.5.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
