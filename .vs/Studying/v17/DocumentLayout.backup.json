@@ -34,7 +34,8 @@
               "RelativeToolTip": "Studying\\Studying.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-20T10:39:12.045Z"
+              "WhenOpened": "2024-09-20T10:39:12.045Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -42,9 +43,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\C#\\Studying\\Studying\\Program.cs",
               "RelativeDocumentMoniker": "Studying\\Program.cs",
-              "ToolTip": "D:\\C#\\Studying\\Studying\\Program.cs",
-              "RelativeToolTip": "Studying\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\C#\\Studying\\Studying\\Program.cs*",
+              "RelativeToolTip": "Studying\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-20T10:38:44.493Z",
               "EditorCaption": ""

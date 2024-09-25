@@ -1,22 +1,20 @@
-﻿Dictionary<string, string> dict = new()
+﻿using SixLabors.ImageSharp;
+using SixLabors.ImageSharp.Processing;
+
+string imagesFolder = Path.Combine(Environment.CurrentDirectory, "images");
+
+IEnumerable<string> images = Directory.EnumerateFiles(imagesFolder);
+
+foreach (string imagePath in images)
 {
-    { "int", "32-bit integer data type"},
-    { "long", "64-bit integer data type"},
-    { "float", "Single precision floating point number"}
-};
+    string thumbnailPath = Path.Combine(Environment.CurrentDirectory, "images", Path.GetFileNameWithoutExtension(imagePath) + "-thumbnail" + Path.GetExtension(imagePath));
 
-Output("Dictionary keys:", dict.Keys);
-Output("\nDictionary values:", dict.Values);
-
-Console.WriteLine("\nKeywords and their definitions:");
-
-foreach (KeyValuePair<string, string> pair in dict)
-    Console.WriteLine($"{pair.Key}: {pair.Value}");
-
-static void Output(string title, IEnumerable<string> collect)
-{
-    Console.WriteLine(title);
-
-    foreach (string item in collect)
-        Console.WriteLine($"{item}");
+    using (Image image = Image.Load(imagePath))
+    {
+        image.Mutate(x => x.Resize(image.Width / 10, image.Height / 10));
+        image.Mutate(x => x.Grayscale());
+        image.Save(thumbnailPath);
+    }
 }
+
+Console.WriteLine("Image processing complete. View the images folder.");
