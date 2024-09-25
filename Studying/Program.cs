@@ -1,33 +1,23 @@
-﻿string dir = Path.Combine(Environment.CurrentDirectory, "Code", "Chapter09", "OutputFiles");
+﻿WorkWithText();
 
-Directory.CreateDirectory(dir);
-
-string textFile = Path.Combine(dir, "Dummy.txt");
-string backupFile = Path.Combine(dir, "Dummy.bak");
-
-Console.WriteLine($"Working with {textFile}");
-Console.WriteLine($"Does it exist? {File.Exists(textFile)}");
-
-using (StreamWriter textWriter = new(textFile))
+static void WorkWithText()
 {
-    textWriter.WriteLine("Hello, C#!");
+    string textFile = Path.Combine(Environment.CurrentDirectory, "streams.txt");
+
+    using (StreamWriter textWriter = new(textFile))
+    {
+        foreach (string item in Viper.Callsigns)
+            textWriter.WriteLine(item);
+    }
+
+    Console.WriteLine($"{textFile} contains {new FileInfo(textFile).Length} bytes.");
+    Console.WriteLine(File.ReadAllText(textFile));
 }
 
-Console.WriteLine($"Does {textFile} exist? {File.Exists(textFile)}");
-
-File.Copy(textFile, backupFile, true);
-
-Console.WriteLine($"Does {backupFile} exist? {File.Exists(backupFile)}");
-
-Console.Write("Confirm the file exist, and then press ENTER: ");
-Console.ReadLine();
-
-File.Delete(textFile);
-
-Console.WriteLine($"Does {textFile} exist? {File.Exists(textFile)}");
-
-using (StreamReader textReader = new(backupFile))
+static class Viper
 {
-    Console.WriteLine($"Reading content of {backupFile}");
-    Console.WriteLine(textReader.ReadToEnd());
+    public static string[] Callsigns = new[]
+    {
+        "Husker", "Starbuck", "Apollo", "Boomer", "Bulldog", "Athena", "Helo", "Racetrack"
+    };
 }
