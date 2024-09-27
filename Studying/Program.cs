@@ -1,49 +1,17 @@
-﻿using System.Xml.Serialization;
+﻿using NewJson = System.Text.Json.JsonSerializer;
 
-List<Person> people = new()
+string jsonPath = Path.Combine(Environment.CurrentDirectory, "people.json");
+
+using (FileStream stream = File.Open(jsonPath, FileMode.Open))
 {
-    new(30000M)
-    {
-        FirsName = "Alice",
-        SecondName = "Smith",
-        DateOfBirth = new DateTime(1974, 3, 14)
-    },
+    List<Person>? people = NewJson.Deserialize(stream, typeof(List<Person>)) as List<Person>;
 
-    new(40000M)
+    if (people is not null)
     {
-        FirsName = "Bob",
-        SecondName = "Jones",
-        DateOfBirth = new DateTime(1969, 11, 23)
-    },
-
-    new(20000M)
-    {
-        FirsName = "Charlie",
-        SecondName = "Cox",
-        DateOfBirth = new DateTime(1984, 5, 4),
-        Children = new()
-        {
-            new(0M)
-            {
-                FirsName = "Sally",
-                SecondName = "Cox",
-                DateOfBirth = new(2000, 7, 12)
-            }
-        }
+        foreach (Person person in people)
+            Console.WriteLine($"{person.FirsName} {person.SecondName} has {person.Children?.Count ?? 0} children.");
     }
-};
-
-XmlSerializer xml = new(people.GetType());
-string path = Path.Combine(Environment.CurrentDirectory, "people.xml");
-
-using (StreamWriter stream = new(path))
-{
-    xml.Serialize(stream, people);
 }
-
-Console.WriteLine($"Written {new FileInfo(path).Length} bytes of XML to {path}");
-
-Console.WriteLine(File.ReadAllText(path));
 
 public class Person
 {
