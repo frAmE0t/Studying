@@ -4,11 +4,15 @@ namespace Packt.Shared
 {
     public class Northwind : DbContext
     {
+        public DbSet<Product>? Products { get; set; }
+        public DbSet<Category>? Categories { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             string connection = "Data Source=.;" +
                 "Initial Catalog=Northwind;" +
-                "MultipleActiveREsultSets=true;";
+                "Integrated Security=true;" +
+                "MultipleActiveResultSets=true;" +
+                "TrustServerCertificate=true;";
 
             optionsBuilder.UseSqlServer(connection);
         }
