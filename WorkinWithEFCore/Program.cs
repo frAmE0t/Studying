@@ -4,7 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Packt.Shared;
 
-QueryingCategories();
+//QueryingCategories();
 //FilteredIncludes();
 //QueryingProducts();
 
@@ -12,8 +12,8 @@ static void QueryingCategories()
 {
     using (Northwind db = new())
     {
-        //ILoggerFactory loggerFactory = db.GetService<ILoggerFactory>();
-        //loggerFactory.AddProvider(new ConsoleLoggerProvider());
+        ILoggerFactory loggerFactory = db.GetService<ILoggerFactory>();
+        loggerFactory.AddProvider(new ConsoleLoggerProvider());
 
         Console.WriteLine("Categories and how many products they have:");
 
@@ -87,5 +87,23 @@ static void QueryingProducts()
 
         foreach (Product p in products)
             Console.WriteLine($"{p.ProductId} : {p.ProductName} costs {p.Cost:$#,##0.00} and has {p.Stock} in stock.");
+    }
+}
+
+static bool AddProduct(int categoryId, string productName, decimal? price)
+{
+    using (Northwind db = new())
+    {
+        Product p = new Product()
+        {
+            CategoryId = categoryId,
+            ProductName = productName,
+            Cost = price
+        };
+
+        db.Products?.Add(p);
+
+        int affected = db.SaveChanges();
+        return (affected == 1);
     }
 }
