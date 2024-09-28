@@ -2,7 +2,9 @@
 using Packt.Shared;
 
 //QueryintCategories();
-FilteredIncludes();
+//FilteredIncludes();
+QueryingProducts();
+
 static void QueryintCategories()
 {
     using (Northwind db = new())
@@ -47,5 +49,34 @@ static void FilteredIncludes()
             foreach (Product p in c.Products)
                 Console.WriteLine($"{p.ProductName} has {p.Stock} units in stock.");
         }
+    }
+}
+
+static void QueryingProducts()
+{
+    using (Northwind db = new())
+    {
+        Console.WriteLine("Products that cost more than a price, highest at top.");
+        string? input;
+        decimal price;
+
+        do
+        {
+            Console.Write("Enter a product price: ");
+            input = Console.ReadLine();
+        } while (!decimal.TryParse(input, out price));
+
+        IQueryable<Product>? products = db.Products?
+            .Where(p => p.Cost >= price)
+            .OrderByDescending(p => p.Cost);
+
+        if (products is null)
+        {
+            Console.WriteLine("No products found.");
+            return;
+        }
+
+        foreach (Product p in products)
+            Console.WriteLine($"{p.ProductId} : {p.ProductName} costs {p.Cost:$#,##0.00} and has {p.Stock} in stock.");
     }
 }
