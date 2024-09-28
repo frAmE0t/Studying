@@ -7,6 +7,10 @@ using Packt.Shared;
 //QueryingCategories();
 //FilteredIncludes();
 //QueryingProducts();
+if (AddProduct(categoryId: 6, productName: "Bob's Burgers", price: 500M, discontinued: true))
+    Console.WriteLine("Add product successful.");
+
+ListProducts();
 
 static void QueryingCategories()
 {
@@ -90,7 +94,7 @@ static void QueryingProducts()
     }
 }
 
-static bool AddProduct(int categoryId, string productName, decimal? price)
+static bool AddProduct(int categoryId, string productName, decimal? price, bool discontinued)
 {
     using (Northwind db = new())
     {
@@ -98,12 +102,26 @@ static bool AddProduct(int categoryId, string productName, decimal? price)
         {
             CategoryId = categoryId,
             ProductName = productName,
-            Cost = price
+            Cost = price,
+            Discontinued = discontinued
         };
 
         db.Products?.Add(p);
 
         int affected = db.SaveChanges();
         return (affected == 1);
+    }
+}
+
+static void ListProducts()
+{
+    using (Northwind db = new())
+    {
+        Console.WriteLine($"{"Id", -3} {"Product Name", -35} {"Cost", 8} {"Stock", 5} Disc.");
+
+        db.Products?.OrderByDescending(p => p.Cost);
+        
+        foreach (Product p in db.Products)
+            Console.WriteLine($"{p.ProductId:000} {p.ProductName, -35} {p.Cost, 8:$#,##0.00} {p.Stock, 5} {p.Discontinued}");
     }
 }
