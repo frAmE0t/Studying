@@ -1,4 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 using Packt.Shared;
 
 //QueryintCategories();
@@ -9,6 +12,9 @@ static void QueryintCategories()
 {
     using (Northwind db = new())
     {
+        ILoggerFactory loggerFactory = db.GetService<ILoggerFactory>();
+        loggerFactory.AddProvider(new ConsoleLoggerProvider());
+
         Console.WriteLine("Categories and how many products they have:");
 
         IQueryable<Category>? categories = db.Categories?
@@ -56,6 +62,9 @@ static void QueryingProducts()
 {
     using (Northwind db = new())
     {
+        ILoggerFactory loggerFactory = db.GetService<ILoggerFactory>();
+        loggerFactory.AddProvider(new ConsoleLoggerProvider());
+
         Console.WriteLine("Products that cost more than a price, highest at top.");
         string? input;
         decimal price;
