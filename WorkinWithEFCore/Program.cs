@@ -4,16 +4,16 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Packt.Shared;
 
-//QueryintCategories();
+QueryingCategories();
 //FilteredIncludes();
-QueryingProducts();
+//QueryingProducts();
 
-static void QueryintCategories()
+static void QueryingCategories()
 {
     using (Northwind db = new())
     {
-        ILoggerFactory loggerFactory = db.GetService<ILoggerFactory>();
-        loggerFactory.AddProvider(new ConsoleLoggerProvider());
+        //ILoggerFactory loggerFactory = db.GetService<ILoggerFactory>();
+        //loggerFactory.AddProvider(new ConsoleLoggerProvider());
 
         Console.WriteLine("Categories and how many products they have:");
 

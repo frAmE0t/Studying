@@ -62,3 +62,8 @@ D:\C#\Studying\WorkinWithEFCore\obj\Debug\net8.0\refint\WorkinWithEFCore.dll
 D:\C#\Studying\WorkinWithEFCore\obj\Debug\net8.0\WorkinWithEFCore.pdb
 D:\C#\Studying\WorkinWithEFCore\obj\Debug\net8.0\WorkinWithEFCore.genruntimeconfig.cache
 D:\C#\Studying\WorkinWithEFCore\obj\Debug\net8.0\ref\WorkinWithEFCore.dll
+D:\C#\Studying\WorkinWithEFCore\bin\Debug\net8.0\Castle.Core.dll
+D:\C#\Studying\WorkinWithEFCore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Proxies.dll
+D:\C#\Studying\WorkinWithEFCore\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
+D:\C#\Studying\WorkinWithEFCore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
+D:\C#\Studying\WorkinWithEFCore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll

@@ -8,12 +8,14 @@ namespace Packt.Shared
         public DbSet<Category>? Categories { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+            optionsBuilder.UseLazyLoadingProxies();
+
             string connection = "Data Source=.;" +
                 "Initial Catalog=Northwind;" +
                 "Integrated Security=true;" +
                 "MultipleActiveResultSets=true;" +
                 "TrustServerCertificate=true;";
-
+            
             optionsBuilder.UseSqlServer(connection);
         }
     }
