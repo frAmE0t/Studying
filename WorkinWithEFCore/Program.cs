@@ -9,9 +9,11 @@ using Packt.Shared;
 //QueryingProducts();
 //if (AddProduct(categoryId: 6, productName: "Bob's Burgers", price: 500M, discontinued: true))
 //    Console.WriteLine("Add product successful.");
-if (IncreaseProductPrice("Bob", 20M))
-    Console.WriteLine("Update product price successful.");
-ListProducts();
+//if (IncreaseProductPrice("Bob", 20M))
+//    Console.WriteLine("Update product price successful.");
+int deleted = DeleteProducts("Bob");
+Console.WriteLine($"{deleted} product(s) were deleted");
+//ListProducts();
 
 static void QueryingCategories()
 {
@@ -129,7 +131,7 @@ static bool IncreaseProductPrice(string productNameStartsWith, decimal amount)
 {
     using (Northwind db = new())
     {
-        Product updateProduct = db.Products
+        Product? updateProduct = db.Products?
             .First(p => p.ProductName.StartsWith(productNameStartsWith));
 
         updateProduct.Cost += amount;
@@ -137,5 +139,25 @@ static bool IncreaseProductPrice(string productNameStartsWith, decimal amount)
         int affected = db.SaveChanges();
 
         return (affected == 1);
+    }
+}
+
+static int DeleteProducts(string productNameStartsWith)
+{
+    using (Northwind db = new())
+    {
+        IQueryable<Product>? products = db.Products?
+            .Where(p => p.ProductName.StartsWith(productNameStartsWith));
+
+        if (products is null)
+        {
+            Console.WriteLine("No products found to delete.");
+            return 0;
+        }
+        else
+            db.RemoveRange(products);
+
+        int afffected = db.SaveChanges();
+        return afffected;
     }
 }
