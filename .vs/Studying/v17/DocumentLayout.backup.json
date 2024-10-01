@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\C#\\Studying\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C04D3158-3549-4D19-9811-261FF95C5B20}|LinqWithObjects\\LinqWithObjects.csproj|d:\\c#\\studying\\linqwithobjects\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C04D3158-3549-4D19-9811-261FF95C5B20}|LinqWithObjects\\LinqWithObjects.csproj|solutionrelative:linqwithobjects\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2A58A329-EA19-424A-A61E-98A828D636BE}|Exercise02\\Exercise02.csproj|d:\\c#\\studying\\exercise02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A58A329-EA19-424A-A61E-98A828D636BE}|Exercise02\\Exercise02.csproj|solutionrelative:exercise02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +38,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C#\\Studying\\LinqWithObjects\\Program.cs",
+              "RelativeDocumentMoniker": "LinqWithObjects\\Program.cs",
+              "ToolTip": "D:\\C#\\Studying\\LinqWithObjects\\Program.cs",
+              "RelativeToolTip": "LinqWithObjects\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T16:37:21.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\C#\\Studying\\Exercise02\\Product.cs",
               "RelativeDocumentMoniker": "Exercise02\\Product.cs",
@@ -42,12 +59,11 @@
               "RelativeToolTip": "Exercise02\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T18:06:11.238Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T18:06:11.238Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Category.cs",
               "DocumentMoniker": "D:\\C#\\Studying\\Exercise02\\Category.cs",
               "RelativeDocumentMoniker": "Exercise02\\Category.cs",
@@ -55,12 +71,11 @@
               "RelativeToolTip": "Exercise02\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T18:05:52.917Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T18:05:52.917Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Northwind.cs",
               "DocumentMoniker": "D:\\C#\\Studying\\Exercise02\\Northwind.cs",
               "RelativeDocumentMoniker": "Exercise02\\Northwind.cs",
@@ -68,12 +83,11 @@
               "RelativeToolTip": "Exercise02\\Northwind.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T18:03:11.861Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T18:03:11.861Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\C#\\Studying\\Exercise02\\Program.cs",
               "RelativeDocumentMoniker": "Exercise02\\Program.cs",

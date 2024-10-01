@@ -1,0 +1,15 @@
+D:\C#\Studying\LinqWithObjects\bin\Debug\net8.0\LinqWithObjects.exe
+D:\C#\Studying\LinqWithObjects\bin\Debug\net8.0\LinqWithObjects.deps.json
+D:\C#\Studying\LinqWithObjects\bin\Debug\net8.0\LinqWithObjects.runtimeconfig.json
+D:\C#\Studying\LinqWithObjects\bin\Debug\net8.0\LinqWithObjects.dll
+D:\C#\Studying\LinqWithObjects\bin\Debug\net8.0\LinqWithObjects.pdb
+D:\C#\Studying\LinqWithObjects\obj\Debug\net8.0\LinqWithObjects.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Studying\LinqWithObjects\obj\Debug\net8.0\LinqWithObjects.AssemblyInfoInputs.cache
+D:\C#\Studying\LinqWithObjects\obj\Debug\net8.0\LinqWithObjects.AssemblyInfo.cs
+D:\C#\Studying\LinqWithObjects\obj\Debug\net8.0\LinqWithObjects.csproj.CoreCompileInputs.cache
+D:\C#\Studying\LinqWithObjects\obj\Debug\net8.0\LinqWithObjects.sourcelink.json
+D:\C#\Studying\LinqWithObjects\obj\Debug\net8.0\LinqWithObjects.dll
+D:\C#\Studying\LinqWithObjects\obj\Debug\net8.0\refint\LinqWithObjects.dll
+D:\C#\Studying\LinqWithObjects\obj\Debug\net8.0\LinqWithObjects.pdb
+D:\C#\Studying\LinqWithObjects\obj\Debug\net8.0\LinqWithObjects.genruntimeconfig.cache
+D:\C#\Studying\LinqWithObjects\obj\Debug\net8.0\ref\LinqWithObjects.dll
