@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Exercise02
 {
@@ -11,7 +12,9 @@ namespace Exercise02
         [StringLength(40)]
         public string ProductName { get; set; }
 
+        [Column(TypeName = "money")]
         public decimal? UnitPrice { get; set; }
+
         public short? UnitsInStock { get; set; }
         public bool? Discontinued { get; set; }
 

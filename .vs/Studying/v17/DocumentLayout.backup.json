@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "D:\\C#\\Studying\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C04D3158-3549-4D19-9811-261FF95C5B20}|LinqWithObjects\\LinqWithObjects.csproj|d:\\c#\\studying\\linqwithobjects\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C04D3158-3549-4D19-9811-261FF95C5B20}|LinqWithObjects\\LinqWithObjects.csproj|solutionrelative:linqwithobjects\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A58A329-EA19-424A-A61E-98A828D636BE}|Exercise02\\Exercise02.csproj|d:\\c#\\studying\\exercise02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A58A329-EA19-424A-A61E-98A828D636BE}|Exercise02\\Exercise02.csproj|solutionrelative:exercise02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A58A329-EA19-424A-A61E-98A828D636BE}|Exercise02\\Exercise02.csproj|d:\\c#\\studying\\exercise02\\northwind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A58A329-EA19-424A-A61E-98A828D636BE}|Exercise02\\Exercise02.csproj|solutionrelative:exercise02\\northwind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B187C450-CA42-4560-85F7-7D9932D3F91E}|LinqWithEFCore\\LinqWithEFCore.csproj|d:\\c#\\studying\\linqwithefcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B187C450-CA42-4560-85F7-7D9932D3F91E}|LinqWithEFCore\\LinqWithEFCore.csproj|solutionrelative:linqwithefcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A58A329-EA19-424A-A61E-98A828D636BE}|Exercise02\\Exercise02.csproj|d:\\c#\\studying\\exercise02\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A58A329-EA19-424A-A61E-98A828D636BE}|Exercise02\\Exercise02.csproj|solutionrelative:exercise02\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A58A329-EA19-424A-A61E-98A828D636BE}|Exercise02\\Exercise02.csproj|d:\\c#\\studying\\exercise02\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A58A329-EA19-424A-A61E-98A828D636BE}|Exercise02\\Exercise02.csproj|solutionrelative:exercise02\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B187C450-CA42-4560-85F7-7D9932D3F91E}|LinqWithEFCore\\LinqWithEFCore.csproj|d:\\c#\\studying\\linqwithefcore\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B187C450-CA42-4560-85F7-7D9932D3F91E}|LinqWithEFCore\\LinqWithEFCore.csproj|solutionrelative:linqwithefcore\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B187C450-CA42-4560-85F7-7D9932D3F91E}|LinqWithEFCore\\LinqWithEFCore.csproj|d:\\c#\\studying\\linqwithefcore\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B187C450-CA42-4560-85F7-7D9932D3F91E}|LinqWithEFCore\\LinqWithEFCore.csproj|solutionrelative:linqwithefcore\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B187C450-CA42-4560-85F7-7D9932D3F91E}|LinqWithEFCore\\LinqWithEFCore.csproj|d:\\c#\\studying\\linqwithefcore\\northwind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B187C450-CA42-4560-85F7-7D9932D3F91E}|LinqWithEFCore\\LinqWithEFCore.csproj|solutionrelative:linqwithefcore\\northwind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,64 +38,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\C#\\Studying\\LinqWithObjects\\Program.cs",
-              "RelativeDocumentMoniker": "LinqWithObjects\\Program.cs",
-              "ToolTip": "D:\\C#\\Studying\\LinqWithObjects\\Program.cs",
-              "RelativeToolTip": "LinqWithObjects\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T16:37:21.358Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\C#\\Studying\\Exercise02\\Product.cs",
               "RelativeDocumentMoniker": "Exercise02\\Product.cs",
               "ToolTip": "D:\\C#\\Studying\\Exercise02\\Product.cs",
               "RelativeToolTip": "Exercise02\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T18:06:11.238Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Category.cs",
-              "DocumentMoniker": "D:\\C#\\Studying\\Exercise02\\Category.cs",
-              "RelativeDocumentMoniker": "Exercise02\\Category.cs",
-              "ToolTip": "D:\\C#\\Studying\\Exercise02\\Category.cs",
-              "RelativeToolTip": "Exercise02\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T18:05:52.917Z"
+              "WhenOpened": "2024-10-01T19:37:14.398Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Northwind.cs",
-              "DocumentMoniker": "D:\\C#\\Studying\\Exercise02\\Northwind.cs",
-              "RelativeDocumentMoniker": "Exercise02\\Northwind.cs",
-              "ToolTip": "D:\\C#\\Studying\\Exercise02\\Northwind.cs",
-              "RelativeToolTip": "Exercise02\\Northwind.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA0AAAAAAAAAA==",
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\C#\\Studying\\LinqWithEFCore\\Product.cs",
+              "RelativeDocumentMoniker": "LinqWithEFCore\\Product.cs",
+              "ToolTip": "D:\\C#\\Studying\\LinqWithEFCore\\Product.cs",
+              "RelativeToolTip": "LinqWithEFCore\\Product.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T18:03:11.861Z"
+              "WhenOpened": "2024-10-01T18:45:18.408Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\C#\\Studying\\Exercise02\\Program.cs",
-              "RelativeDocumentMoniker": "Exercise02\\Program.cs",
-              "ToolTip": "D:\\C#\\Studying\\Exercise02\\Program.cs",
-              "RelativeToolTip": "Exercise02\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\C#\\Studying\\LinqWithEFCore\\Category.cs",
+              "RelativeDocumentMoniker": "LinqWithEFCore\\Category.cs",
+              "ToolTip": "D:\\C#\\Studying\\LinqWithEFCore\\Category.cs",
+              "RelativeToolTip": "LinqWithEFCore\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T18:02:43.031Z",
+              "WhenOpened": "2024-10-01T18:45:03.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Northwind.cs",
+              "DocumentMoniker": "D:\\C#\\Studying\\LinqWithEFCore\\Northwind.cs",
+              "RelativeDocumentMoniker": "LinqWithEFCore\\Northwind.cs",
+              "ToolTip": "D:\\C#\\Studying\\LinqWithEFCore\\Northwind.cs",
+              "RelativeToolTip": "LinqWithEFCore\\Northwind.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T18:44:54.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C#\\Studying\\LinqWithEFCore\\Program.cs",
+              "RelativeDocumentMoniker": "LinqWithEFCore\\Program.cs",
+              "ToolTip": "D:\\C#\\Studying\\LinqWithEFCore\\Program.cs",
+              "RelativeToolTip": "LinqWithEFCore\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T18:41:45.399Z",
               "EditorCaption": ""
             }
           ]
