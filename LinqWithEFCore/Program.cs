@@ -11,12 +11,17 @@ static void FilterAndSort()
         IQueryable<Product>? filteredProducts = allProducts.Where(p => p.UnitPrice < 10M);
         IOrderedQueryable<Product>? filteredAndSortedProducts = filteredProducts.OrderByDescending(p => p.UnitPrice);
 
+        var projectedProducts = filteredAndSortedProducts.Select(p => new
+        {
+            p.ProductId,
+            p.ProductName,
+            p.UnitPrice
+        });
+
         Console.WriteLine("Products that cost less then $10:");
 
-        foreach (Product p in filteredAndSortedProducts)
-        {
+        foreach (var p in projectedProducts)
             Console.WriteLine($"{p.ProductId}: {p.ProductName} costs {p.UnitPrice:$#,##0.00}");
-        }
         Console.WriteLine();
     }
 }
