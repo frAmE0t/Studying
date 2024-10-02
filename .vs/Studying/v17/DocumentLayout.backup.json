@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{B187C450-CA42-4560-85F7-7D9932D3F91E}|LinqWithEFCore\\LinqWithEFCore.csproj|solutionrelative:linqwithefcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A58A329-EA19-424A-A61E-98A828D636BE}|Exercise02\\Exercise02.csproj|d:\\c#\\studying\\exercise02\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A58A329-EA19-424A-A61E-98A828D636BE}|Exercise02\\Exercise02.csproj|solutionrelative:exercise02\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B187C450-CA42-4560-85F7-7D9932D3F91E}|LinqWithEFCore\\LinqWithEFCore.csproj|d:\\c#\\studying\\linqwithefcore\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B187C450-CA42-4560-85F7-7D9932D3F91E}|LinqWithEFCore\\LinqWithEFCore.csproj|solutionrelative:linqwithefcore\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B187C450-CA42-4560-85F7-7D9932D3F91E}|LinqWithEFCore\\LinqWithEFCore.csproj|d:\\c#\\studying\\linqwithefcore\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B187C450-CA42-4560-85F7-7D9932D3F91E}|LinqWithEFCore\\LinqWithEFCore.csproj|solutionrelative:linqwithefcore\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A58A329-EA19-424A-A61E-98A828D636BE}|Exercise02\\Exercise02.csproj|d:\\c#\\studying\\exercise02\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A58A329-EA19-424A-A61E-98A828D636BE}|Exercise02\\Exercise02.csproj|solutionrelative:exercise02\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B187C450-CA42-4560-85F7-7D9932D3F91E}|LinqWithEFCore\\LinqWithEFCore.csproj|d:\\c#\\studying\\linqwithefcore\\northwind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +38,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\C#\\Studying\\Exercise02\\Product.cs",
               "RelativeDocumentMoniker": "Exercise02\\Product.cs",
@@ -50,7 +50,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\C#\\Studying\\LinqWithEFCore\\Product.cs",
               "RelativeDocumentMoniker": "LinqWithEFCore\\Product.cs",
@@ -58,11 +58,12 @@
               "RelativeToolTip": "LinqWithEFCore\\Product.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T18:45:18.408Z"
+              "WhenOpened": "2024-10-01T18:45:18.408Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Category.cs",
               "DocumentMoniker": "D:\\C#\\Studying\\LinqWithEFCore\\Category.cs",
               "RelativeDocumentMoniker": "LinqWithEFCore\\Category.cs",
@@ -70,7 +71,8 @@
               "RelativeToolTip": "LinqWithEFCore\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T18:45:03.929Z"
+              "WhenOpened": "2024-10-01T18:45:03.929Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -92,7 +94,7 @@
               "RelativeDocumentMoniker": "LinqWithEFCore\\Program.cs",
               "ToolTip": "D:\\C#\\Studying\\LinqWithEFCore\\Program.cs",
               "RelativeToolTip": "LinqWithEFCore\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABJAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCYAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-01T18:41:45.399Z",
               "EditorCaption": ""

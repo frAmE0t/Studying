@@ -1,7 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Packt.Shared;
 
-FilterAndSort();
+//FilterAndSort();
+JoinCategoriesAndProducts();
 
 static void FilterAndSort()
 {
@@ -23,5 +24,19 @@ static void FilterAndSort()
         foreach (var p in projectedProducts)
             Console.WriteLine($"{p.ProductId}: {p.ProductName} costs {p.UnitPrice:$#,##0.00}");
         Console.WriteLine();
+    }
+}
+
+static void JoinCategoriesAndProducts()
+{
+    using (Northwind db = new())
+    {
+        var queryJoin = db.Categories.Join(db.Products, category => category.CategoryID, products => products.CategoryId, (c, p) => new
+        {
+            c.CategoryName, p.ProductName, p.ProductId
+        });
+
+        foreach (var item in queryJoin)
+            Console.WriteLine($"{item.ProductId}: {item.ProductName} is in {item.CategoryName}.");
     }
 }
