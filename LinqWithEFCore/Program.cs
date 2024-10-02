@@ -2,7 +2,8 @@
 using Packt.Shared;
 
 //FilterAndSort();
-JoinCategoriesAndProducts();
+//JoinCategoriesAndProducts();
+GroupJoinCategoriesAndProducts();
 
 static void FilterAndSort()
 {
@@ -38,5 +39,25 @@ static void JoinCategoriesAndProducts()
 
         foreach (var item in queryJoin)
             Console.WriteLine($"{item.ProductId}: {item.ProductName} is in {item.CategoryName}.");
+    }
+}
+
+static void GroupJoinCategoriesAndProducts()
+{
+    using (Northwind db = new())
+    {
+        var queryGroup = db.Categories.AsEnumerable().GroupJoin(db.Products, category => category.CategoryID, product => product.CategoryId, (c, matchingProducts) => new
+        {
+            c.CategoryName,
+            Products = matchingProducts.OrderBy(p => p.ProductName)
+        });
+
+        foreach (var c in queryGroup)
+        {
+            Console.WriteLine($"{c.CategoryName} has {c.Products.Count()} products.");
+
+            foreach (var p in c.Products)
+                Console.WriteLine($"   {p.ProductName}");
+        }
     }
 }
