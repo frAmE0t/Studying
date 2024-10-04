@@ -1,0 +1,15 @@
+D:\C#\Studying\NestedAndChildrenTasks\bin\Debug\net8.0\NestedAndChildrenTasks.exe
+D:\C#\Studying\NestedAndChildrenTasks\bin\Debug\net8.0\NestedAndChildrenTasks.deps.json
+D:\C#\Studying\NestedAndChildrenTasks\bin\Debug\net8.0\NestedAndChildrenTasks.runtimeconfig.json
+D:\C#\Studying\NestedAndChildrenTasks\bin\Debug\net8.0\NestedAndChildrenTasks.dll
+D:\C#\Studying\NestedAndChildrenTasks\bin\Debug\net8.0\NestedAndChildrenTasks.pdb
+D:\C#\Studying\NestedAndChildrenTasks\obj\Debug\net8.0\NestedAndChildrenTasks.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Studying\NestedAndChildrenTasks\obj\Debug\net8.0\NestedAndChildrenTasks.AssemblyInfoInputs.cache
+D:\C#\Studying\NestedAndChildrenTasks\obj\Debug\net8.0\NestedAndChildrenTasks.AssemblyInfo.cs
+D:\C#\Studying\NestedAndChildrenTasks\obj\Debug\net8.0\NestedAndChildrenTasks.csproj.CoreCompileInputs.cache
+D:\C#\Studying\NestedAndChildrenTasks\obj\Debug\net8.0\NestedAndChildrenTasks.sourcelink.json
+D:\C#\Studying\NestedAndChildrenTasks\obj\Debug\net8.0\NestedAndChildrenTasks.dll
+D:\C#\Studying\NestedAndChildrenTasks\obj\Debug\net8.0\refint\NestedAndChildrenTasks.dll
+D:\C#\Studying\NestedAndChildrenTasks\obj\Debug\net8.0\NestedAndChildrenTasks.pdb
+D:\C#\Studying\NestedAndChildrenTasks\obj\Debug\net8.0\NestedAndChildrenTasks.genruntimeconfig.cache
+D:\C#\Studying\NestedAndChildrenTasks\obj\Debug\net8.0\ref\NestedAndChildrenTasks.dll

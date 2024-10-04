@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\C#\\Studying\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{795CF2D5-CF9D-4D03-89B4-27137CEF5004}|NestedAndChildrenTasks\\NestedAndChildrenTasks.csproj|d:\\c#\\studying\\nestedandchildrentasks\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795CF2D5-CF9D-4D03-89B4-27137CEF5004}|NestedAndChildrenTasks\\NestedAndChildrenTasks.csproj|solutionrelative:nestedandchildrentasks\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{146975FC-416D-49BF-BE1D-712E847C4BD8}|WorkingWithTasks\\WorkingWithTasks.csproj|d:\\c#\\studying\\workingwithtasks\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{146975FC-416D-49BF-BE1D-712E847C4BD8}|WorkingWithTasks\\WorkingWithTasks.csproj|solutionrelative:workingwithtasks\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -32,6 +36,19 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C#\\Studying\\NestedAndChildrenTasks\\Program.cs",
+              "RelativeDocumentMoniker": "NestedAndChildrenTasks\\Program.cs",
+              "ToolTip": "D:\\C#\\Studying\\NestedAndChildrenTasks\\Program.cs",
+              "RelativeToolTip": "NestedAndChildrenTasks\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T16:19:29.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
               "DocumentMoniker": "D:\\C#\\Studying\\WorkingWithTasks\\Program.cs",
               "RelativeDocumentMoniker": "WorkingWithTasks\\Program.cs",
               "ToolTip": "D:\\C#\\Studying\\WorkingWithTasks\\Program.cs",
@@ -43,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\C#\\Studying\\MonitoringApp\\Program.cs",
               "RelativeDocumentMoniker": "MonitoringApp\\Program.cs",
@@ -55,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Recorder.cs",
               "DocumentMoniker": "D:\\C#\\Studying\\MonitoringLib\\Recorder.cs",
               "RelativeDocumentMoniker": "MonitoringLib\\Recorder.cs",
