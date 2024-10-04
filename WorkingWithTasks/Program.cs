@@ -19,6 +19,9 @@ Task taskB = Task.Factory.StartNew(MethodB);
 
 Task taskC = Task.Run(MethodC);
 
+Task[] tasks = {taskA, taskB, taskC};
+Task.WaitAll(tasks);
+
 Console.WriteLine($"{timer.ElapsedMilliseconds:#,##0}ms elaplsed.");
 
 static void OutputThreadInfo()
