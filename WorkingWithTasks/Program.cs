@@ -4,11 +4,20 @@ OutputThreadInfo();
 
 Stopwatch timer = Stopwatch.StartNew();
 
-Console.WriteLine("Running methods synchronously on one thread.");
+//Console.WriteLine("Running methods synchronously on one thread.");
 
-MethodA();
-MethodB();
-MethodC();
+//MethodA();
+//MethodB();
+//MethodC();
+
+Console.WriteLine("Running methods asynchronously on multiple threads.");
+
+Task taskA = new(MethodA);
+taskA.Start();
+
+Task taskB = Task.Factory.StartNew(MethodB);
+
+Task taskC = Task.Run(MethodC);
 
 Console.WriteLine($"{timer.ElapsedMilliseconds:#,##0}ms elaplsed.");
 
