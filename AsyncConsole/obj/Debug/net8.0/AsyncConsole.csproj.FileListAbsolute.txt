@@ -1,0 +1,15 @@
+D:\C#\Studying\AsyncConsole\bin\Debug\net8.0\AsyncConsole.exe
+D:\C#\Studying\AsyncConsole\bin\Debug\net8.0\AsyncConsole.deps.json
+D:\C#\Studying\AsyncConsole\bin\Debug\net8.0\AsyncConsole.runtimeconfig.json
+D:\C#\Studying\AsyncConsole\bin\Debug\net8.0\AsyncConsole.dll
+D:\C#\Studying\AsyncConsole\bin\Debug\net8.0\AsyncConsole.pdb
+D:\C#\Studying\AsyncConsole\obj\Debug\net8.0\AsyncConsole.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Studying\AsyncConsole\obj\Debug\net8.0\AsyncConsole.AssemblyInfoInputs.cache
+D:\C#\Studying\AsyncConsole\obj\Debug\net8.0\AsyncConsole.AssemblyInfo.cs
+D:\C#\Studying\AsyncConsole\obj\Debug\net8.0\AsyncConsole.csproj.CoreCompileInputs.cache
+D:\C#\Studying\AsyncConsole\obj\Debug\net8.0\AsyncConsole.sourcelink.json
+D:\C#\Studying\AsyncConsole\obj\Debug\net8.0\AsyncConsole.dll
+D:\C#\Studying\AsyncConsole\obj\Debug\net8.0\refint\AsyncConsole.dll
+D:\C#\Studying\AsyncConsole\obj\Debug\net8.0\AsyncConsole.pdb
+D:\C#\Studying\AsyncConsole\obj\Debug\net8.0\AsyncConsole.genruntimeconfig.cache
+D:\C#\Studying\AsyncConsole\obj\Debug\net8.0\ref\AsyncConsole.dll
