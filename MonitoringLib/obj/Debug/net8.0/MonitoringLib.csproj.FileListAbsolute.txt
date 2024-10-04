@@ -1,0 +1,12 @@
+D:\C#\Studying\MonitoringLib\bin\Debug\net8.0\MonitoringLib.deps.json
+D:\C#\Studying\MonitoringLib\bin\Debug\net8.0\MonitoringLib.dll
+D:\C#\Studying\MonitoringLib\bin\Debug\net8.0\MonitoringLib.pdb
+D:\C#\Studying\MonitoringLib\obj\Debug\net8.0\MonitoringLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Studying\MonitoringLib\obj\Debug\net8.0\MonitoringLib.AssemblyInfoInputs.cache
+D:\C#\Studying\MonitoringLib\obj\Debug\net8.0\MonitoringLib.AssemblyInfo.cs
+D:\C#\Studying\MonitoringLib\obj\Debug\net8.0\MonitoringLib.csproj.CoreCompileInputs.cache
+D:\C#\Studying\MonitoringLib\obj\Debug\net8.0\MonitoringLib.sourcelink.json
+D:\C#\Studying\MonitoringLib\obj\Debug\net8.0\MonitoringLib.dll
+D:\C#\Studying\MonitoringLib\obj\Debug\net8.0\refint\MonitoringLib.dll
+D:\C#\Studying\MonitoringLib\obj\Debug\net8.0\MonitoringLib.pdb
+D:\C#\Studying\MonitoringLib\obj\Debug\net8.0\ref\MonitoringLib.dll

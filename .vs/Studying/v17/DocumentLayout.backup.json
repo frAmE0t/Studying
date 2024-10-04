@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "D:\\C#\\Studying\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CFEE864F-35A2-4924-9753-FE5DD257A302}|Exercise11.2\\Exercise11.2.csproj|d:\\c#\\studying\\exercise11.2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFEE864F-35A2-4924-9753-FE5DD257A302}|Exercise11.2\\Exercise11.2.csproj|solutionrelative:exercise11.2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B7F84084-0BBC-4E18-8C6D-D54D1D16191C}|MonitoringApp\\MonitoringApp.csproj|d:\\c#\\studying\\monitoringapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7F84084-0BBC-4E18-8C6D-D54D1D16191C}|MonitoringApp\\MonitoringApp.csproj|solutionrelative:monitoringapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CFEE864F-35A2-4924-9753-FE5DD257A302}|Exercise11.2\\Exercise11.2.csproj|d:\\c#\\studying\\exercise11.2\\northwind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFEE864F-35A2-4924-9753-FE5DD257A302}|Exercise11.2\\Exercise11.2.csproj|solutionrelative:exercise11.2\\northwind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFEE864F-35A2-4924-9753-FE5DD257A302}|Exercise11.2\\Exercise11.2.csproj|d:\\c#\\studying\\exercise11.2\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFEE864F-35A2-4924-9753-FE5DD257A302}|Exercise11.2\\Exercise11.2.csproj|solutionrelative:exercise11.2\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E3603FC-4C30-4A32-9F97-3BFB20DF571B}|MonitoringLib\\MonitoringLib.csproj|d:\\c#\\studying\\monitoringlib\\recorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E3603FC-4C30-4A32-9F97-3BFB20DF571B}|MonitoringLib\\MonitoringLib.csproj|solutionrelative:monitoringlib\\recorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,41 +26,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "D:\\C#\\Studying\\Exercise11.2\\Customer.cs",
-              "RelativeDocumentMoniker": "Exercise11.2\\Customer.cs",
-              "ToolTip": "D:\\C#\\Studying\\Exercise11.2\\Customer.cs",
-              "RelativeToolTip": "Exercise11.2\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAyAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C#\\Studying\\MonitoringApp\\Program.cs",
+              "RelativeDocumentMoniker": "MonitoringApp\\Program.cs",
+              "ToolTip": "D:\\C#\\Studying\\MonitoringApp\\Program.cs*",
+              "RelativeToolTip": "MonitoringApp\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T16:55:47.135Z",
+              "WhenOpened": "2024-10-04T09:15:41.467Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Northwind.cs",
-              "DocumentMoniker": "D:\\C#\\Studying\\Exercise11.2\\Northwind.cs",
-              "RelativeDocumentMoniker": "Exercise11.2\\Northwind.cs",
-              "ToolTip": "D:\\C#\\Studying\\Exercise11.2\\Northwind.cs",
-              "RelativeToolTip": "Exercise11.2\\Northwind.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA0AAAAAAAAAA==",
+              "Title": "Recorder.cs",
+              "DocumentMoniker": "D:\\C#\\Studying\\MonitoringLib\\Recorder.cs",
+              "RelativeDocumentMoniker": "MonitoringLib\\Recorder.cs",
+              "ToolTip": "D:\\C#\\Studying\\MonitoringLib\\Recorder.cs",
+              "RelativeToolTip": "MonitoringLib\\Recorder.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T16:52:50.927Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\C#\\Studying\\Exercise11.2\\Program.cs",
-              "RelativeDocumentMoniker": "Exercise11.2\\Program.cs",
-              "ToolTip": "D:\\C#\\Studying\\Exercise11.2\\Program.cs",
-              "RelativeToolTip": "Exercise11.2\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T16:48:18.911Z",
+              "WhenOpened": "2024-10-04T09:12:40.755Z",
               "EditorCaption": ""
             }
           ]
