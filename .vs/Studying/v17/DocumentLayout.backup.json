@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\C#\\Studying\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{146975FC-416D-49BF-BE1D-712E847C4BD8}|WorkingWithTasks\\WorkingWithTasks.csproj|d:\\c#\\studying\\workingwithtasks\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{146975FC-416D-49BF-BE1D-712E847C4BD8}|WorkingWithTasks\\WorkingWithTasks.csproj|solutionrelative:workingwithtasks\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B7F84084-0BBC-4E18-8C6D-D54D1D16191C}|MonitoringApp\\MonitoringApp.csproj|d:\\c#\\studying\\monitoringapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B7F84084-0BBC-4E18-8C6D-D54D1D16191C}|MonitoringApp\\MonitoringApp.csproj|solutionrelative:monitoringapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -28,10 +32,23 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C#\\Studying\\WorkingWithTasks\\Program.cs",
+              "RelativeDocumentMoniker": "WorkingWithTasks\\Program.cs",
+              "ToolTip": "D:\\C#\\Studying\\WorkingWithTasks\\Program.cs",
+              "RelativeToolTip": "WorkingWithTasks\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T09:46:04.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
               "DocumentMoniker": "D:\\C#\\Studying\\MonitoringApp\\Program.cs",
               "RelativeDocumentMoniker": "MonitoringApp\\Program.cs",
-              "ToolTip": "D:\\C#\\Studying\\MonitoringApp\\Program.cs*",
-              "RelativeToolTip": "MonitoringApp\\Program.cs*",
+              "ToolTip": "D:\\C#\\Studying\\MonitoringApp\\Program.cs",
+              "RelativeToolTip": "MonitoringApp\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-04T09:15:41.467Z",
@@ -39,7 +56,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Recorder.cs",
               "DocumentMoniker": "D:\\C#\\Studying\\MonitoringLib\\Recorder.cs",
               "RelativeDocumentMoniker": "MonitoringLib\\Recorder.cs",
@@ -47,8 +64,7 @@
               "RelativeToolTip": "MonitoringLib\\Recorder.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T09:12:40.755Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T09:12:40.755Z"
             }
           ]
         }

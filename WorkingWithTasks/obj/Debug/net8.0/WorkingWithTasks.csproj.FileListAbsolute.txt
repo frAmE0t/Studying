@@ -1,0 +1,15 @@
+D:\C#\Studying\WorkingWithTasks\bin\Debug\net8.0\WorkingWithTasks.exe
+D:\C#\Studying\WorkingWithTasks\bin\Debug\net8.0\WorkingWithTasks.deps.json
+D:\C#\Studying\WorkingWithTasks\bin\Debug\net8.0\WorkingWithTasks.runtimeconfig.json
+D:\C#\Studying\WorkingWithTasks\bin\Debug\net8.0\WorkingWithTasks.dll
+D:\C#\Studying\WorkingWithTasks\bin\Debug\net8.0\WorkingWithTasks.pdb
+D:\C#\Studying\WorkingWithTasks\obj\Debug\net8.0\WorkingWithTasks.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Studying\WorkingWithTasks\obj\Debug\net8.0\WorkingWithTasks.AssemblyInfoInputs.cache
+D:\C#\Studying\WorkingWithTasks\obj\Debug\net8.0\WorkingWithTasks.AssemblyInfo.cs
+D:\C#\Studying\WorkingWithTasks\obj\Debug\net8.0\WorkingWithTasks.csproj.CoreCompileInputs.cache
+D:\C#\Studying\WorkingWithTasks\obj\Debug\net8.0\WorkingWithTasks.sourcelink.json
+D:\C#\Studying\WorkingWithTasks\obj\Debug\net8.0\WorkingWithTasks.dll
+D:\C#\Studying\WorkingWithTasks\obj\Debug\net8.0\refint\WorkingWithTasks.dll
+D:\C#\Studying\WorkingWithTasks\obj\Debug\net8.0\WorkingWithTasks.pdb
+D:\C#\Studying\WorkingWithTasks\obj\Debug\net8.0\WorkingWithTasks.genruntimeconfig.cache
+D:\C#\Studying\WorkingWithTasks\obj\Debug\net8.0\ref\WorkingWithTasks.dll
