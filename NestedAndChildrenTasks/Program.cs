@@ -12,6 +12,6 @@ static void OuterMethod()
 static void InnerMethod()
 {
     Console.WriteLine("Inner method starting...");
-    Thread.Sleep(2000);
+    //Thread.Sleep(2000);
     Console.WriteLine("Inner method finished.");
 }

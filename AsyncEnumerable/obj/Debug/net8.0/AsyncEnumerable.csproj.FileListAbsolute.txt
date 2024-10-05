@@ -1,0 +1,15 @@
+D:\C#\Studying\AsyncEnumerable\bin\Debug\net8.0\AsyncEnumerable.exe
+D:\C#\Studying\AsyncEnumerable\bin\Debug\net8.0\AsyncEnumerable.deps.json
+D:\C#\Studying\AsyncEnumerable\bin\Debug\net8.0\AsyncEnumerable.runtimeconfig.json
+D:\C#\Studying\AsyncEnumerable\bin\Debug\net8.0\AsyncEnumerable.dll
+D:\C#\Studying\AsyncEnumerable\bin\Debug\net8.0\AsyncEnumerable.pdb
+D:\C#\Studying\AsyncEnumerable\obj\Debug\net8.0\AsyncEnumerable.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Studying\AsyncEnumerable\obj\Debug\net8.0\AsyncEnumerable.AssemblyInfoInputs.cache
+D:\C#\Studying\AsyncEnumerable\obj\Debug\net8.0\AsyncEnumerable.AssemblyInfo.cs
+D:\C#\Studying\AsyncEnumerable\obj\Debug\net8.0\AsyncEnumerable.csproj.CoreCompileInputs.cache
+D:\C#\Studying\AsyncEnumerable\obj\Debug\net8.0\AsyncEnumerable.sourcelink.json
+D:\C#\Studying\AsyncEnumerable\obj\Debug\net8.0\AsyncEnumerable.dll
+D:\C#\Studying\AsyncEnumerable\obj\Debug\net8.0\refint\AsyncEnumerable.dll
+D:\C#\Studying\AsyncEnumerable\obj\Debug\net8.0\AsyncEnumerable.pdb
+D:\C#\Studying\AsyncEnumerable\obj\Debug\net8.0\AsyncEnumerable.genruntimeconfig.cache
+D:\C#\Studying\AsyncEnumerable\obj\Debug\net8.0\ref\AsyncEnumerable.dll

@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\C#\\Studying\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BE03C23A-4FB9-4B87-A4F5-AFB02719D865}|AsyncEnumerable\\AsyncEnumerable.csproj|d:\\c#\\studying\\asyncenumerable\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE03C23A-4FB9-4B87-A4F5-AFB02719D865}|AsyncEnumerable\\AsyncEnumerable.csproj|solutionrelative:asyncenumerable\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{85830936-88D9-4D7A-B6D1-2F47993BC962}|AsyncConsole\\AsyncConsole.csproj|d:\\c#\\studying\\asyncconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{85830936-88D9-4D7A-B6D1-2F47993BC962}|AsyncConsole\\AsyncConsole.csproj|solutionrelative:asyncconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{795CF2D5-CF9D-4D03-89B4-27137CEF5004}|NestedAndChildrenTasks\\NestedAndChildrenTasks.csproj|d:\\c#\\studying\\nestedandchildrentasks\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{795CF2D5-CF9D-4D03-89B4-27137CEF5004}|NestedAndChildrenTasks\\NestedAndChildrenTasks.csproj|solutionrelative:nestedandchildrentasks\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{146975FC-416D-49BF-BE1D-712E847C4BD8}|WorkingWithTasks\\WorkingWithTasks.csproj|d:\\c#\\studying\\workingwithtasks\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{146975FC-416D-49BF-BE1D-712E847C4BD8}|WorkingWithTasks\\WorkingWithTasks.csproj|solutionrelative:workingwithtasks\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795CF2D5-CF9D-4D03-89B4-27137CEF5004}|NestedAndChildrenTasks\\NestedAndChildrenTasks.csproj|d:\\c#\\studying\\nestedandchildrentasks\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795CF2D5-CF9D-4D03-89B4-27137CEF5004}|NestedAndChildrenTasks\\NestedAndChildrenTasks.csproj|solutionrelative:nestedandchildrentasks\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B7F84084-0BBC-4E18-8C6D-D54D1D16191C}|MonitoringApp\\MonitoringApp.csproj|d:\\c#\\studying\\monitoringapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -40,24 +44,37 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\C#\\Studying\\AsyncConsole\\Program.cs",
-              "RelativeDocumentMoniker": "AsyncConsole\\Program.cs",
-              "ToolTip": "D:\\C#\\Studying\\AsyncConsole\\Program.cs",
-              "RelativeToolTip": "AsyncConsole\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABcAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\C#\\Studying\\AsyncEnumerable\\Program.cs",
+              "RelativeDocumentMoniker": "AsyncEnumerable\\Program.cs",
+              "ToolTip": "D:\\C#\\Studying\\AsyncEnumerable\\Program.cs",
+              "RelativeToolTip": "AsyncEnumerable\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T19:16:40.621Z",
+              "WhenOpened": "2024-10-05T13:33:15.342Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C#\\Studying\\AsyncConsole\\Program.cs",
+              "RelativeDocumentMoniker": "AsyncConsole\\Program.cs",
+              "ToolTip": "D:\\C#\\Studying\\AsyncConsole\\Program.cs",
+              "RelativeToolTip": "AsyncConsole\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T19:16:40.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
               "DocumentMoniker": "D:\\C#\\Studying\\NestedAndChildrenTasks\\Program.cs",
               "RelativeDocumentMoniker": "NestedAndChildrenTasks\\Program.cs",
               "ToolTip": "D:\\C#\\Studying\\NestedAndChildrenTasks\\Program.cs",
               "RelativeToolTip": "NestedAndChildrenTasks\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-04T16:19:29.191Z",
               "EditorCaption": ""
@@ -72,11 +89,12 @@
               "RelativeToolTip": "WorkingWithTasks\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T09:46:04.259Z"
+              "WhenOpened": "2024-10-04T09:46:04.259Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\C#\\Studying\\MonitoringApp\\Program.cs",
               "RelativeDocumentMoniker": "MonitoringApp\\Program.cs",
@@ -88,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Recorder.cs",
               "DocumentMoniker": "D:\\C#\\Studying\\MonitoringLib\\Recorder.cs",
               "RelativeDocumentMoniker": "MonitoringLib\\Recorder.cs",
