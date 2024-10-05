@@ -1,0 +1,16 @@
+D:\C#\Studying\Northwind.Common.DataContext.SqlServer\bin\Debug\net8.0\Northwind.Common.DataContext.SqlServer.deps.json
+D:\C#\Studying\Northwind.Common.DataContext.SqlServer\bin\Debug\net8.0\Northwind.Common.DataContext.SqlServer.dll
+D:\C#\Studying\Northwind.Common.DataContext.SqlServer\bin\Debug\net8.0\Northwind.Common.DataContext.SqlServer.pdb
+D:\C#\Studying\Northwind.Common.DataContext.SqlServer\bin\Debug\net8.0\Northwind.Common.EntityModels.SqlServer.dll
+D:\C#\Studying\Northwind.Common.DataContext.SqlServer\bin\Debug\net8.0\Northwind.Common.EntityModels.SqlServer.pdb
+D:\C#\Studying\Northwind.Common.DataContext.SqlServer\obj\Debug\net8.0\Northwind.Common.DataContext.SqlServer.csproj.AssemblyReference.cache
+D:\C#\Studying\Northwind.Common.DataContext.SqlServer\obj\Debug\net8.0\Northwind.Common.DataContext.SqlServer.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Studying\Northwind.Common.DataContext.SqlServer\obj\Debug\net8.0\Northwind.Common.DataContext.SqlServer.AssemblyInfoInputs.cache
+D:\C#\Studying\Northwind.Common.DataContext.SqlServer\obj\Debug\net8.0\Northwind.Common.DataContext.SqlServer.AssemblyInfo.cs
+D:\C#\Studying\Northwind.Common.DataContext.SqlServer\obj\Debug\net8.0\Northwind.Common.DataContext.SqlServer.csproj.CoreCompileInputs.cache
+D:\C#\Studying\Northwind.Common.DataContext.SqlServer\obj\Debug\net8.0\Northwind.Common.DataContext.SqlServer.sourcelink.json
+D:\C#\Studying\Northwind.Common.DataContext.SqlServer\obj\Debug\net8.0\Northwin.540084DC.Up2Date
+D:\C#\Studying\Northwind.Common.DataContext.SqlServer\obj\Debug\net8.0\Northwind.Common.DataContext.SqlServer.dll
+D:\C#\Studying\Northwind.Common.DataContext.SqlServer\obj\Debug\net8.0\refint\Northwind.Common.DataContext.SqlServer.dll
+D:\C#\Studying\Northwind.Common.DataContext.SqlServer\obj\Debug\net8.0\Northwind.Common.DataContext.SqlServer.pdb
+D:\C#\Studying\Northwind.Common.DataContext.SqlServer\obj\Debug\net8.0\ref\Northwind.Common.DataContext.SqlServer.dll
