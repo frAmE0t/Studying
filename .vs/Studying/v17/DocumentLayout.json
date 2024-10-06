@@ -60,7 +60,7 @@
               "RelativeDocumentMoniker": "Northwind.Web\\Pages\\index.cshtml",
               "ToolTip": "D:\\C#\\Studying\\Northwind.Web\\Pages\\index.cshtml",
               "RelativeToolTip": "Northwind.Web\\Pages\\index.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-06T19:20:32.433Z",
               "EditorCaption": ""
@@ -75,8 +75,7 @@
               "RelativeToolTip": "Northwind.Web\\Pages\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-06T19:09:14.028Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-06T19:09:14.028Z"
             },
             {
               "$type": "Document",
@@ -88,8 +87,7 @@
               "RelativeToolTip": "Northwind.Web\\wwwroot\\index.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-06T18:58:07.101Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-06T18:58:07.101Z"
             },
             {
               "$type": "Document",
@@ -113,8 +111,7 @@
               "RelativeToolTip": "Northwind.Web\\Startup.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T15:55:18.091Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-06T15:55:18.091Z"
             },
             {
               "$type": "Document",
