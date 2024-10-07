@@ -1,8 +1,9 @@
-using Northwind.Web;
+using Northwind.EntityModels;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddRazorPages();
+builder.Services.AddNorthwindContext();
 
 var app = builder.Build();
 
@@ -21,4 +22,5 @@ app.MapRazorPages();
 
 app.MapGet("/hello", () => "Hello World!");
 
+app.Run();
 Console.WriteLine("This executes after the web server has stopped!");

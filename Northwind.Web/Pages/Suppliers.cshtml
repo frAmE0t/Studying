@@ -1,4 +1,5 @@
 ﻿@page
+@using Northwind.EntityModels
 @model Northwind.Web.Pages.SuppliersModel
 <div class="row">
     <h1 class="display-2">Suppliers</h1>
@@ -6,15 +7,19 @@
         <thead class="thead-inverse">
             <tr>
                 <th>Company Name</th>
+                <th>Country</th>
+                <th>Phone</th>
             </tr>
         </thead>
         <tbody>
             @if (Model.Suppliers is not null)
             {
-                @foreach (string name in Model.Suppliers)
+                @foreach (Supplier s in Model.Suppliers)
                 {
                     <tr>
-                        <td>@name</td>
+                        <td>@s.CompanyName</td>
+                        <td>@s.Country</td>
+                        <td>@s.Phone</td>
                     </tr>
                 }
             }
