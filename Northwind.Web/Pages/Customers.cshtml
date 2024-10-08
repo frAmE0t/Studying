@@ -1,0 +1,31 @@
+﻿@page
+@using Northwind.EntityModels
+@using Northwind.Web.Pages
+@model CustomersModel
+@{
+    ViewData["Title"] = "Northwind B2B - Customers";
+}
+<div class="row">
+    <h1 class="display-2">Customers</h1>
+    <table class="table">
+        <thead class="thead-inverse">
+            <tr>
+                <th>Country</th>
+                <th>Company Name</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.Customers is not null)
+            {
+                @foreach (Customer c in Model.Customers)
+                {
+                    <tr>
+                        <td>@c.Country</td>
+                        <td><a href="customerorders?id=@c.CustomerId">@c.CompanyName</a></td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>
