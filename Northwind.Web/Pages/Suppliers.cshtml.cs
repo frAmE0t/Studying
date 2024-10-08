@@ -1,7 +1,6 @@
-using Microsoft.AspNetCore.Mvc.RazorPages;
-using Northwind.EntityModels;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using Microsoft.AspNetCore.Mvc.RazorPages; // To use PageModel.
+using Northwind.EntityModels; // To use NorthwindContext.
+using Microsoft.AspNetCore.Mvc; // To use [BindProperty], IActionResult.
 
 namespace Northwind.Web.Pages
 {
