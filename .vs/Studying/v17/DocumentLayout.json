@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\C#\\Studying\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E62AA0CE-FEE4-4870-87FC-E1481BD8894E}|Northwind.WebApi\\Northwind.WebApi.csproj|d:\\c#\\studying\\northwind.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E62AA0CE-FEE4-4870-87FC-E1481BD8894E}|Northwind.WebApi\\Northwind.WebApi.csproj|solutionrelative:northwind.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E62AA0CE-FEE4-4870-87FC-E1481BD8894E}|Northwind.WebApi\\Northwind.WebApi.csproj|d:\\c#\\studying\\northwind.webapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E62AA0CE-FEE4-4870-87FC-E1481BD8894E}|Northwind.WebApi\\Northwind.WebApi.csproj|solutionrelative:northwind.webapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -102,7 +106,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -110,7 +114,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C#\\Studying\\Northwind.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "Northwind.WebApi\\Program.cs",
+              "ToolTip": "D:\\C#\\Studying\\Northwind.WebApi\\Program.cs",
+              "RelativeToolTip": "Northwind.WebApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T18:56:11.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\C#\\Studying\\Northwind.WebApi\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Northwind.WebApi\\Properties\\launchSettings.json",
@@ -118,12 +135,11 @@
               "RelativeToolTip": "Northwind.WebApi\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-08T18:39:31.355Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-08T18:39:31.355Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "D:\\C#\\Studying\\Northwind.WebApi\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "Northwind.WebApi\\Controllers\\WeatherForecastController.cs",
@@ -131,25 +147,23 @@
               "RelativeToolTip": "Northwind.WebApi\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAQwAYAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T18:00:03.55Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-08T18:00:03.55Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Northwind.WebApi",
+              "DocumentIndex": 3,
+              "Title": "Northwind.WebApi.csproj",
               "DocumentMoniker": "D:\\C#\\Studying\\Northwind.WebApi\\Northwind.WebApi.csproj",
               "RelativeDocumentMoniker": "Northwind.WebApi\\Northwind.WebApi.csproj",
               "ToolTip": "D:\\C#\\Studying\\Northwind.WebApi\\Northwind.WebApi.csproj",
               "RelativeToolTip": "Northwind.WebApi\\Northwind.WebApi.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-08T17:58:00.394Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-08T17:58:00.394Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "index.cshtml",
               "DocumentMoniker": "D:\\C#\\Studying\\Northwind.Web\\Pages\\index.cshtml",
               "RelativeDocumentMoniker": "Northwind.Web\\Pages\\index.cshtml",
@@ -161,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "CustomerOrders.cshtml",
               "DocumentMoniker": "D:\\C#\\Studying\\Northwind.Web\\Pages\\CustomerOrders.cshtml",
               "RelativeDocumentMoniker": "Northwind.Web\\Pages\\CustomerOrders.cshtml",
@@ -173,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Customers.cshtml.cs",
               "DocumentMoniker": "D:\\C#\\Studying\\Northwind.Web\\Pages\\Customers.cshtml.cs",
               "RelativeDocumentMoniker": "Northwind.Web\\Pages\\Customers.cshtml.cs",
@@ -185,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Customers.cshtml",
               "DocumentMoniker": "D:\\C#\\Studying\\Northwind.Web\\Pages\\Customers.cshtml",
               "RelativeDocumentMoniker": "Northwind.Web\\Pages\\Customers.cshtml",
@@ -197,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "NorthwindContext.cs",
               "DocumentMoniker": "D:\\C#\\Studying\\Northwind.DataContext.Sqlite\\NorthwindContext.cs",
               "RelativeDocumentMoniker": "Northwind.DataContext.Sqlite\\NorthwindContext.cs",
@@ -209,7 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Suppliers.cshtml.cs",
               "DocumentMoniker": "D:\\C#\\Studying\\Northwind.Web\\Pages\\Suppliers.cshtml.cs",
               "RelativeDocumentMoniker": "Northwind.Web\\Pages\\Suppliers.cshtml.cs",
@@ -221,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Suppliers.cshtml",
               "DocumentMoniker": "D:\\C#\\Studying\\Northwind.Web\\Pages\\Suppliers.cshtml",
               "RelativeDocumentMoniker": "Northwind.Web\\Pages\\Suppliers.cshtml",
@@ -233,7 +247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\C#\\Studying\\Northwind.Web\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Northwind.Web\\Pages\\Shared\\_Layout.cshtml",
@@ -245,7 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "index.html",
               "DocumentMoniker": "D:\\C#\\Studying\\Northwind.Web\\wwwroot\\index.html",
               "RelativeDocumentMoniker": "Northwind.Web\\wwwroot\\index.html",
@@ -257,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\C#\\Studying\\Northwind.Web\\Program.cs",
               "RelativeDocumentMoniker": "Northwind.Web\\Program.cs",
@@ -265,12 +279,11 @@
               "RelativeToolTip": "Northwind.Web\\Program.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAAwCMAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T14:52:11.976Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-06T14:52:11.976Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "CustomerOrders.cshtml.cs",
               "DocumentMoniker": "D:\\C#\\Studying\\Northwind.Web\\Pages\\CustomerOrders.cshtml.cs",
               "RelativeDocumentMoniker": "Northwind.Web\\Pages\\CustomerOrders.cshtml.cs",
@@ -282,7 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Northwind.Web.csproj",
               "DocumentMoniker": "D:\\C#\\Studying\\Northwind.Web\\Northwind.Web.csproj",
               "RelativeDocumentMoniker": "Northwind.Web\\Northwind.Web.csproj",
@@ -290,12 +303,11 @@
               "RelativeToolTip": "Northwind.Web\\Northwind.Web.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-06T16:09:52.386Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-06T16:09:52.386Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Startup.cs",
               "DocumentMoniker": "D:\\C#\\Studying\\Northwind.Web\\Startup.cs",
               "RelativeDocumentMoniker": "Northwind.Web\\Startup.cs",
@@ -307,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Orders.cshtml",
               "DocumentMoniker": "D:\\C#\\Studying\\Northwind.Web\\Pages\\Orders.cshtml",
               "RelativeDocumentMoniker": "Northwind.Web\\Pages\\Orders.cshtml",
@@ -319,7 +331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "NorthwindContextExtensions.cs",
               "DocumentMoniker": "D:\\C#\\Studying\\Northwind.DataContext.Sqlite\\NorthwindContextExtensions.cs",
               "RelativeDocumentMoniker": "Northwind.DataContext.Sqlite\\NorthwindContextExtensions.cs",
@@ -331,7 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Customer.cs",
               "DocumentMoniker": "D:\\C#\\Studying\\Northwind.Common.EntityModels.SqlServer\\Customer.cs",
               "RelativeDocumentMoniker": "Northwind.Common.EntityModels.SqlServer\\Customer.cs",
@@ -343,7 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\C#\\Studying\\WorkinWithEFCore\\Program.cs",
               "RelativeDocumentMoniker": "WorkinWithEFCore\\Program.cs",
@@ -355,7 +367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "NorthwindContextLogger.cs",
               "DocumentMoniker": "D:\\C#\\Studying\\Northwind.DataContext.Sqlite\\NorthwindContextLogger.cs",
               "RelativeDocumentMoniker": "Northwind.DataContext.Sqlite\\NorthwindContextLogger.cs",
@@ -367,7 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "NorthwindContextExtensions.cs",
               "DocumentMoniker": "D:\\C#\\Studying\\Northwind.Common.DataContext.SqlServer\\NorthwindContextExtensions.cs",
               "RelativeDocumentMoniker": "Northwind.Common.DataContext.SqlServer\\NorthwindContextExtensions.cs",
@@ -379,7 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "NorthwindContext.cs",
               "DocumentMoniker": "D:\\C#\\Studying\\Northwind.Common.DataContext.SqlServer\\NorthwindContext.cs",
               "RelativeDocumentMoniker": "Northwind.Common.DataContext.SqlServer\\NorthwindContext.cs",
